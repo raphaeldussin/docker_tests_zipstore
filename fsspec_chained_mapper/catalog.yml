@@ -1,0 +1,17 @@
+sources:
+  temp_zip:
+    description: zarr zipstore
+    driver: zarr
+    args:
+      urlpath: 'zip::temp_zip.zip'
+      consolidated: False
+    metadata:
+      origin_url: ''
+  temp_zipc:
+    description: zarr zipstore
+    driver: zarr
+    args:
+      urlpath: 'zip::temp_zipc.zip'
+      consolidated: True
+    metadata:
+      origin_url: ''

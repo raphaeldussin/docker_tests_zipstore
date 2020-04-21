@@ -1,0 +1,6 @@
+xarray
+dask[complete]
+zarr
+intake
+git+https://github.com/martindurant/filesystem_spec.git#chained_mapper
+git+https://github.com/intake/intake-xarray.git
